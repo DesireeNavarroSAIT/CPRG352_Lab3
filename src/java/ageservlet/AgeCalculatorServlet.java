@@ -29,7 +29,7 @@ public class AgeCalculatorServlet extends HttpServlet {
             return;
           
 
-        } else if (age.matches("[A-Za-z]")) {
+        } else if (age.matches("[A-Za-z]{1,10}")) {
             request.setAttribute("message", "Age MUST be a number");
             getServletContext().getRequestDispatcher("/WEB-INF/agecalculator.jsp").forward(request, response);
             return;

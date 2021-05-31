@@ -20,12 +20,12 @@
             <label>Last:</label>
             <input type="text" name="second" value="${second_number}" placeholder="1">
             <br>   
-            <button type="submit" name="plusbutton" value="plus" >+</button>
-            <button type="submit" name="minusbutton" value="minus">-</button>
-            <button type="submit" name="multiplebutton" value="multiple">*</button>
-            <button type="submit" name="modulusbutton" value="modulus">%</button>
+            <button type="submit" name="button" value="plus" >+</button>
+            <button type="submit" name="button" value="minus">-</button>
+            <button type="submit" name="button" value="multiple">*</button>
+            <button type="submit" name="button" value="modulus">%</button>
         </form>
-        <p>${message}</p>
+        <p>Results: ${empty message ? '---' :message} </p>
         <a href="age">Age Calculator</a>
     </body>
 </html>
