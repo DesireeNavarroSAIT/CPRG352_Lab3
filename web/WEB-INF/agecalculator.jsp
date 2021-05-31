@@ -15,7 +15,7 @@
         <h1>Age Calculator</h1>
         <form method="post" action="age">
             <label>Enter your age:</label>
-            <input type="text" name="ageC" value="${age}" placeholder="18">
+            <input type="text" name="ageC" placeholder="18">
             <br>
             <input type="submit" value="Age next birthday">
         </form>

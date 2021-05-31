@@ -19,11 +19,11 @@
             <br>
             <label>Last:</label>
             <input type="text" name="second" value="${second_number}" placeholder="1">
-            <br>
-            <button type="button" >+</button>
-            <button type="button" >-</button>
-            <button type="button" >*</button>
-            <button type="button" >%</button>
+            <br>   
+            <button type="submit" name="plusbutton" value="plus" >+</button>
+            <button type="submit" name="minusbutton" value="minus">-</button>
+            <button type="submit" name="multiplebutton" value="multiple">*</button>
+            <button type="submit" name="modulusbutton" value="modulus">%</button>
         </form>
         <p>${message}</p>
         <a href="age">Age Calculator</a>
